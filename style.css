@@ -1,0 +1,45 @@
+body {
+    font-family: Arial, sans-serif;
+}
+
+header, footer {
+    text-align: center;
+    padding: 10px;
+}
+
+header {
+    background-color: rgb(0, 128, 0); /* Verde */
+    color: white;
+}
+
+footer {
+    background-color: rgb(128, 128, 128); /* Cinza */
+    color: white;
+}
+
+.historico {
+    margin: 20px 0;
+}
+
+.topo {
+    color: rgb(255, 0, 0); /* Vermelho */
+}
+
+.meio {
+    color: rgb(0, 0, 255); /* Azul */
+}
+
+.fim  {
+    color: rgb(255, 165, 0); /* Laranja */
+}
+
+.imagens-final {
+    display: flex;
+    justify-content: 15px; /* Espaço ao redor das imagens */
+    margin: 20px 0;
+}
+
+.imagens-final img {
+    width: 450px; /* Definir o tamanho das imagens */
+    height: auto;
+}
